@@ -28,11 +28,12 @@ body{
 
 h1{
     font-size: 50px;   
-    
+    margin-bottom: 0;
 }
 
 .subtitle{
     font-weight: 300;
+    margin-top: 0;
 }
 
 h1, h2{
@@ -52,7 +53,7 @@ img{
     width: 600px;
     margin: 0 auto;
     border-radius: 20px;
-
+    box-shadow: 2px 2px 4px #4b4b4b;
 }
 
 a > .recipe {
@@ -74,4 +75,18 @@ ul, ol{
 .recipe > p{
     position: relative;
     left: 20px;
+}
+
+header{
+    background-color: #C46E88;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left: 0;
+    box-shadow: 2px 2px 8px #4b4b4b;
+}
+main{
+    position: relative;
+    top:25vh;
 }
