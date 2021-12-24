@@ -1,0 +1,77 @@
+/*     
+Google fonts
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', serif; 
+*/
+*{
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100%;
+}
+
+a:hover {
+    color:#FDE8E9;
+}
+
+a{
+    color: #1F2232;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Josefin Slab', serif ;
+    background-color: #E3BAC6;
+    color: #1F2232;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;   
+    
+}
+
+.subtitle{
+    font-weight: 300;
+}
+
+h1, h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FDE8E9;
+}
+
+img{
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.recipe{
+    background-color: #BC9EC1;
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+a > .recipe {
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+video{
+    height: 500px;
+}
+
+ul, ol{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.recipe > p{
+    position: relative;
+    left: 20px;
+}
